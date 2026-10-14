@@ -1,0 +1,82 @@
+[
+  {
+    "token": "bg",
+    "hex": "#030303",
+    "file": "reference/SAME 1.jpg.jpeg",
+    "x": 48,
+    "y": 0,
+    "share": 0.6262
+  },
+  {
+    "token": "surface",
+    "hex": "#101318",
+    "file": "reference/SAME 1.jpg.jpeg",
+    "x": 1126,
+    "y": 186,
+    "share": 0.0941
+  },
+  {
+    "token": "line",
+    "hex": "#2f3545",
+    "file": "reference/SAME 1.jpg.jpeg",
+    "x": 763,
+    "y": 507,
+    "share": 0.061
+  },
+  {
+    "token": "dim",
+    "hex": "#5a657b",
+    "file": "reference/SAME 1.jpg.jpeg",
+    "x": 1464,
+    "y": 300,
+    "share": 0.0414
+  },
+  {
+    "token": "muted",
+    "hex": "#a1a9bc",
+    "file": "reference/SAME 1.jpg.jpeg",
+    "x": 1344,
+    "y": 594,
+    "share": 0.0455
+  },
+  {
+    "token": "bright",
+    "hex": "#e5e5ef",
+    "file": "reference/SAME 1.jpg.jpeg",
+    "x": 1102,
+    "y": 200,
+    "share": 0.1318
+  },
+  {
+    "token": "sphere-hi",
+    "hex": "#f3f3f7",
+    "file": "brand/LOGO SAME PNG...png",
+    "x": 888,
+    "y": 573,
+    "share": 0.3855
+  },
+  {
+    "token": "sphere-mid",
+    "hex": "#e3e3eb",
+    "file": "brand/LOGO SAME PNG...png",
+    "x": 983,
+    "y": 509,
+    "share": 0.2345
+  },
+  {
+    "token": "sphere-lo",
+    "hex": "#d0d0dc",
+    "file": "brand/LOGO SAME PNG...png",
+    "x": 1132,
+    "y": 527,
+    "share": 0.1853
+  },
+  {
+    "token": "sphere-edge",
+    "hex": "#b1b1c0",
+    "file": "brand/LOGO SAME PNG...png",
+    "x": 1362,
+    "y": 673,
+    "share": 0.1948
+  }
+]

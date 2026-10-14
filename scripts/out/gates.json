@@ -1,0 +1,158 @@
+{
+  "total": 38,
+  "failed": 0,
+  "results": [
+    {
+      "name": "build: dist has index, favicon, css, js, fonts, headers",
+      "ok": true
+    },
+    {
+      "name": "build: repo docs live outside dist",
+      "ok": true
+    },
+    {
+      "name": "register: schema valid, inert records carry no value or url",
+      "ok": true
+    },
+    {
+      "name": "register: runtime projection carries no dates or provenance",
+      "ok": true
+    },
+    {
+      "name": "harness: every anchor is state-independent (double flip restores, both branches reachable)",
+      "ok": true
+    },
+    {
+      "name": "contract slot: both branches built from the live record",
+      "ok": true
+    },
+    {
+      "name": "contract slot: stated => full address, large, click-to-copy button",
+      "ok": true
+    },
+    {
+      "name": "contract slot: absent => inert, label + pending only, no value, no hook",
+      "ok": true
+    },
+    {
+      "name": "contract slot: sits at the top, above main content",
+      "ok": true
+    },
+    {
+      "name": "social x: icon at every state, href only when stated, handle derived from stored URL",
+      "ok": true
+    },
+    {
+      "name": "social github: icon at every state, href only when stated, handle derived from stored URL",
+      "ok": true
+    },
+    {
+      "name": "social: official X mark and GitHub Octicon paths, icon only (no text), top-right",
+      "ok": true
+    },
+    {
+      "name": "link rule: no dead hrefs for unstated records",
+      "ok": true
+    },
+    {
+      "name": "address scanner: matches stated registry, never blanket-rejects 0x hex",
+      "ok": true
+    },
+    {
+      "name": "address scanner: contract exempt (stated build passes with the address inside the slot)",
+      "ok": true
+    },
+    {
+      "name": "no dates anywhere in dist (html, attributes, aria, tooltips, css, js, svg)",
+      "ok": true
+    },
+    {
+      "name": "dates stay as data: register.json keeps checked fields, dist register json has none",
+      "ok": true
+    },
+    {
+      "name": "palette: every colour literal lives in tokens.css only (source and dist)",
+      "ok": true
+    },
+    {
+      "name": "palette: each token equals the real pixel at its stated coordinate",
+      "ok": true
+    },
+    {
+      "name": "favicon: SVG 32x32 from the pixel grid, no comments, no double hyphen, palette-only fills",
+      "ok": true
+    },
+    {
+      "name": "css: no ch units",
+      "ok": true
+    },
+    {
+      "name": "css: tap targets are 44px (header icons, tabs, copy buttons, chips)",
+      "ok": true
+    },
+    {
+      "name": "motion: prefers-reduced-motion kills every animation and transition, JS springs resolve instantly",
+      "ok": true
+    },
+    {
+      "name": "visual spec present: spring solver, parallax, mesh, spotlight, progress bar, pill dot, skeleton, flash, count-up",
+      "ok": true
+    },
+    {
+      "name": "copy: zero shared 2-grams with the reference site",
+      "ok": true
+    },
+    {
+      "name": "repo hygiene: no CLAUDE.md, no .claude/, no AI attribution anywhere",
+      "ok": true
+    },
+    {
+      "name": "market: Solana only, one row per token, top 10 by 24h volume",
+      "ok": true
+    },
+    {
+      "name": "market: backoff is exponential, jittered, capped",
+      "ok": true
+    },
+    {
+      "name": "market: polls every 60s, backs off on failure, keeps last good data, recovers",
+      "ok": true
+    },
+    {
+      "name": "market: no data + failure => error state; pause stops polling; resume fetches immediately",
+      "ok": true
+    },
+    {
+      "name": "market: independent of the contract record (code, output and behaviour)",
+      "ok": true
+    },
+    {
+      "name": "market: follows its own record only (absent => inert, no fetch; stated => feed urls)",
+      "ok": true
+    },
+    {
+      "name": "browser: skeletons first, then ten live rows with stagger, ticker, totals, letter-tile fallback",
+      "ok": true
+    },
+    {
+      "name": "browser: source failure => dash + error, retry control, no crash",
+      "ok": true
+    },
+    {
+      "name": "browser: live content carries no dates (text, aria, title, alt)",
+      "ok": true
+    },
+    {
+      "name": "browser: reduced motion => zero running animations, content visible, no transform motion",
+      "ok": true
+    },
+    {
+      "name": "browser: motion path runs animations when allowed (marquee, pulse dot, spring reveal)",
+      "ok": true
+    },
+    {
+      "name": "browser: stated contract copies with visible feedback; inert slot is not clickable",
+      "ok": true
+    }
+  ]
+}

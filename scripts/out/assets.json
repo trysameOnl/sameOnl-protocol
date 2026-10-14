@@ -1,0 +1,706 @@
+[
+  {
+    "file": "brand\\LOGO SAME JPG.jpg.jpeg",
+    "bytes": 236712,
+    "header": {
+      "kind": "JPEG",
+      "depth": 8,
+      "h": 2000,
+      "w": 2000,
+      "components": 3
+    },
+    "alphaHist8": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4000000
+    ],
+    "alpha0": 0,
+    "alpha0PureBlackRGB": 0,
+    "alpha255": 4000000,
+    "alphaPartial": 0,
+    "dominantQuantised": [
+      "#040404 x3236290",
+      "#ececf4 x75132",
+      "#fcfcfc x70977",
+      "#f4f4f4 x65985",
+      "#f4f4fc x64036"
+    ],
+    "kmeans6": [
+      {
+        "hex": "#000000",
+        "share": 0.8093,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "hex": "#f1f0f5",
+        "share": 0.0977,
+        "x": 919,
+        "y": 544
+      },
+      {
+        "hex": "#d6d6e0",
+        "share": 0.0534,
+        "x": 1064,
+        "y": 515
+      },
+      {
+        "hex": "#b3b2c0",
+        "share": 0.0388,
+        "x": 1353,
+        "y": 669
+      },
+      {
+        "hex": "#77767c",
+        "share": 0.0005,
+        "x": 1400,
+        "y": 713
+      },
+      {
+        "hex": "#323234",
+        "share": 0.0004,
+        "x": 1035,
+        "y": 507
+      }
+    ]
+  },
+  {
+    "file": "brand\\LOGO SAME PNG...png",
+    "bytes": 688228,
+    "header": {
+      "kind": "PNG",
+      "w": 2000,
+      "h": 2000,
+      "depth": 8,
+      "colourType": 6,
+      "colourName": "truecolour+alpha",
+      "interlace": 0
+    },
+    "alphaHist8": [
+      3237410,
+      806,
+      622,
+      548,
+      564,
+      586,
+      790,
+      758674
+    ],
+    "alpha0": 3235584,
+    "alpha0PureBlackRGB": 3235584,
+    "alpha255": 756662,
+    "alphaPartial": 7754,
+    "dominantQuantised": [
+      "#ececf4 x104187",
+      "#f4f4fc x75247",
+      "#f4f4f4 x69660",
+      "#e4e4ec x69376",
+      "#dcdce4 x62411"
+    ],
+    "kmeans6": [
+      {
+        "hex": "#ececf1",
+        "share": 0.249,
+        "x": 57,
+        "y": 0
+      },
+      {
+        "hex": "#f6f6f9",
+        "share": 0.2377,
+        "x": 1720,
+        "y": 22
+      },
+      {
+        "hex": "#dedee7",
+        "share": 0.1596,
+        "x": 858,
+        "y": 0
+      },
+      {
+        "hex": "#d0d0dc",
+        "share": 0.136,
+        "x": 347,
+        "y": 2
+      },
+      {
+        "hex": "#babac9",
+        "share": 0.1188,
+        "x": 1626,
+        "y": 27
+      },
+      {
+        "hex": "#a8a9b9",
+        "share": 0.0989,
+        "x": 1056,
+        "y": 60
+      }
+    ]
+  },
+  {
+    "file": "brand\\LOGO SAME PNG..png",
+    "bytes": 291416,
+    "header": {
+      "kind": "PNG",
+      "w": 2000,
+      "h": 2000,
+      "depth": 8,
+      "colourType": 6,
+      "colourName": "truecolour+alpha",
+      "interlace": 0
+    },
+    "alphaHist8": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4000000
+    ],
+    "alpha0": 0,
+    "alpha0PureBlackRGB": 0,
+    "alpha255": 4000000,
+    "alphaPartial": 0,
+    "dominantQuantised": [
+      "#040404 x3236276",
+      "#ececf4 x79983",
+      "#fcfcfc x70930",
+      "#f4f4fc x64491",
+      "#f4f4f4 x58902"
+    ],
+    "kmeans6": [
+      {
+        "hex": "#000000",
+        "share": 0.8093,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "hex": "#f1f1f5",
+        "share": 0.0975,
+        "x": 826,
+        "y": 562
+      },
+      {
+        "hex": "#d6d7e1",
+        "share": 0.0527,
+        "x": 1067,
+        "y": 515
+      },
+      {
+        "hex": "#b2b2c1",
+        "share": 0.0397,
+        "x": 1354,
+        "y": 691
+      },
+      {
+        "hex": "#76767c",
+        "share": 0.0005,
+        "x": 1400,
+        "y": 713
+      },
+      {
+        "hex": "#323234",
+        "share": 0.0004,
+        "x": 1385,
+        "y": 692
+      }
+    ]
+  },
+  {
+    "file": "reference\\SAME 1.jpg.jpeg",
+    "bytes": 101077,
+    "header": {
+      "kind": "JPEG",
+      "depth": 8,
+      "h": 900,
+      "w": 1600,
+      "components": 3
+    },
+    "alphaHist8": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1440000
+    ],
+    "alpha0": 0,
+    "alpha0PureBlackRGB": 0,
+    "alpha255": 1440000,
+    "alphaPartial": 0,
+    "dominantQuantised": [
+      "#040404 x759430",
+      "#0c0c0c x78871",
+      "#04040c x50061",
+      "#0c0c14 x31878",
+      "#ececf4 x30166"
+    ],
+    "kmeans6": [
+      {
+        "hex": "#030303",
+        "share": 0.5751,
+        "x": 48,
+        "y": 0
+      },
+      {
+        "hex": "#e2e5ee",
+        "share": 0.1361,
+        "x": 1072,
+        "y": 212
+      },
+      {
+        "hex": "#0c0d12",
+        "share": 0.132,
+        "x": 1256,
+        "y": 196
+      },
+      {
+        "hex": "#272d3b",
+        "share": 0.062,
+        "x": 1479,
+        "y": 420
+      },
+      {
+        "hex": "#51596e",
+        "share": 0.0487,
+        "x": 1104,
+        "y": 699
+      },
+      {
+        "hex": "#99a1b6",
+        "share": 0.046,
+        "x": 1337,
+        "y": 496
+      }
+    ]
+  },
+  {
+    "file": "reference\\SAME 2.jpg.jpeg",
+    "bytes": 96127,
+    "header": {
+      "kind": "JPEG",
+      "depth": 8,
+      "h": 900,
+      "w": 1600,
+      "components": 3
+    },
+    "alphaHist8": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1440000
+    ],
+    "alpha0": 0,
+    "alpha0PureBlackRGB": 0,
+    "alpha255": 1440000,
+    "alphaPartial": 0,
+    "dominantQuantised": [
+      "#040404 x773711",
+      "#0c0c0c x78455",
+      "#04040c x50061",
+      "#0c0c14 x31878",
+      "#ececf4 x30166"
+    ],
+    "kmeans6": [
+      {
+        "hex": "#030303",
+        "share": 0.5848,
+        "x": 48,
+        "y": 0
+      },
+      {
+        "hex": "#0c0d12",
+        "share": 0.1318,
+        "x": 1256,
+        "y": 196
+      },
+      {
+        "hex": "#e2e5ee",
+        "share": 0.1281,
+        "x": 1072,
+        "y": 212
+      },
+      {
+        "hex": "#272d3b",
+        "share": 0.0614,
+        "x": 1479,
+        "y": 420
+      },
+      {
+        "hex": "#51596e",
+        "share": 0.0481,
+        "x": 1104,
+        "y": 699
+      },
+      {
+        "hex": "#99a1b6",
+        "share": 0.0458,
+        "x": 1337,
+        "y": 496
+      }
+    ]
+  },
+  {
+    "file": "reference\\SAME 3.jpg.jpeg",
+    "bytes": 99183,
+    "header": {
+      "kind": "JPEG",
+      "depth": 8,
+      "h": 900,
+      "w": 1600,
+      "components": 3
+    },
+    "alphaHist8": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1440000
+    ],
+    "alpha0": 0,
+    "alpha0PureBlackRGB": 0,
+    "alpha255": 1440000,
+    "alphaPartial": 0,
+    "dominantQuantised": [
+      "#040404 x763187",
+      "#0c0c0c x78568",
+      "#04040c x50061",
+      "#0c0c14 x31878",
+      "#ececf4 x30166"
+    ],
+    "kmeans6": [
+      {
+        "hex": "#030303",
+        "share": 0.5776,
+        "x": 48,
+        "y": 0
+      },
+      {
+        "hex": "#e2e5ee",
+        "share": 0.1343,
+        "x": 1072,
+        "y": 212
+      },
+      {
+        "hex": "#0c0d12",
+        "share": 0.1318,
+        "x": 1256,
+        "y": 196
+      },
+      {
+        "hex": "#272d3b",
+        "share": 0.0615,
+        "x": 1479,
+        "y": 420
+      },
+      {
+        "hex": "#51596e",
+        "share": 0.049,
+        "x": 1104,
+        "y": 699
+      },
+      {
+        "hex": "#99a1b6",
+        "share": 0.0457,
+        "x": 1337,
+        "y": 496
+      }
+    ]
+  },
+  {
+    "file": "reference\\SAME 4.jpg.jpeg",
+    "bytes": 101352,
+    "header": {
+      "kind": "JPEG",
+      "depth": 8,
+      "h": 900,
+      "w": 1600,
+      "components": 3
+    },
+    "alphaHist8": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1440000
+    ],
+    "alpha0": 0,
+    "alpha0PureBlackRGB": 0,
+    "alpha255": 1440000,
+    "alphaPartial": 0,
+    "dominantQuantised": [
+      "#040404 x761635",
+      "#0c0c0c x79166",
+      "#04040c x50061",
+      "#0c0c14 x31878",
+      "#ececf4 x30166"
+    ],
+    "kmeans6": [
+      {
+        "hex": "#030303",
+        "share": 0.5765,
+        "x": 48,
+        "y": 0
+      },
+      {
+        "hex": "#e2e5ee",
+        "share": 0.1349,
+        "x": 1072,
+        "y": 212
+      },
+      {
+        "hex": "#0c0d12",
+        "share": 0.1323,
+        "x": 1256,
+        "y": 196
+      },
+      {
+        "hex": "#272d3b",
+        "share": 0.062,
+        "x": 1479,
+        "y": 420
+      },
+      {
+        "hex": "#51596e",
+        "share": 0.0483,
+        "x": 1104,
+        "y": 699
+      },
+      {
+        "hex": "#99a1b6",
+        "share": 0.046,
+        "x": 1337,
+        "y": 496
+      }
+    ]
+  },
+  {
+    "file": "reference\\SAME 5.jpg.jpeg",
+    "bytes": 103856,
+    "header": {
+      "kind": "JPEG",
+      "depth": 8,
+      "h": 900,
+      "w": 1600,
+      "components": 3
+    },
+    "alphaHist8": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1440000
+    ],
+    "alpha0": 0,
+    "alpha0PureBlackRGB": 0,
+    "alpha255": 1440000,
+    "alphaPartial": 0,
+    "dominantQuantised": [
+      "#040404 x753815",
+      "#0c0c0c x79406",
+      "#04040c x50061",
+      "#0c0c14 x31878",
+      "#ececf4 x30166"
+    ],
+    "kmeans6": [
+      {
+        "hex": "#030303",
+        "share": 0.5712,
+        "x": 48,
+        "y": 0
+      },
+      {
+        "hex": "#e3e3ed",
+        "share": 0.1385,
+        "x": 1231,
+        "y": 428
+      },
+      {
+        "hex": "#0c0d12",
+        "share": 0.1327,
+        "x": 1256,
+        "y": 196
+      },
+      {
+        "hex": "#272d3b",
+        "share": 0.0622,
+        "x": 1479,
+        "y": 420
+      },
+      {
+        "hex": "#525a6f",
+        "share": 0.0493,
+        "x": 1137,
+        "y": 690
+      },
+      {
+        "hex": "#99a1b6",
+        "share": 0.0461,
+        "x": 1337,
+        "y": 496
+      }
+    ]
+  },
+  {
+    "file": "reference\\SAME 6.jpg.jpeg",
+    "bytes": 101590,
+    "header": {
+      "kind": "JPEG",
+      "depth": 8,
+      "h": 900,
+      "w": 1600,
+      "components": 3
+    },
+    "alphaHist8": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1440000
+    ],
+    "alpha0": 0,
+    "alpha0PureBlackRGB": 0,
+    "alpha255": 1440000,
+    "alphaPartial": 0,
+    "dominantQuantised": [
+      "#040404 x761712",
+      "#0c0c0c x79019",
+      "#04040c x50061",
+      "#0c0c14 x31878",
+      "#ececf4 x30166"
+    ],
+    "kmeans6": [
+      {
+        "hex": "#030303",
+        "share": 0.5739,
+        "x": 48,
+        "y": 0
+      },
+      {
+        "hex": "#0c0d12",
+        "share": 0.1351,
+        "x": 1256,
+        "y": 196
+      },
+      {
+        "hex": "#e2e5ee",
+        "share": 0.1345,
+        "x": 1072,
+        "y": 212
+      },
+      {
+        "hex": "#272d3b",
+        "share": 0.0615,
+        "x": 1479,
+        "y": 420
+      },
+      {
+        "hex": "#51596e",
+        "share": 0.0489,
+        "x": 1104,
+        "y": 699
+      },
+      {
+        "hex": "#99a1b6",
+        "share": 0.0461,
+        "x": 1337,
+        "y": 496
+      }
+    ]
+  },
+  {
+    "file": "reference\\SAMPUL SAME JPG.jpg.jpeg",
+    "bytes": 183674,
+    "header": {
+      "kind": "JPEG",
+      "depth": 8,
+      "h": 500,
+      "w": 1500,
+      "components": 3
+    },
+    "alphaHist8": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      750000
+    ],
+    "alpha0": 0,
+    "alpha0PureBlackRGB": 0,
+    "alpha255": 750000,
+    "alphaPartial": 0,
+    "dominantQuantised": [
+      "#040404 x712821",
+      "#0c0c0c x4836",
+      "#f4f4f4 x3756",
+      "#fcfcfc x3526",
+      "#ececec x1668"
+    ],
+    "kmeans6": [
+      {
+        "hex": "#000000",
+        "share": 0.9357,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "hex": "#080808",
+        "share": 0.0252,
+        "x": 123,
+        "y": 29
+      },
+      {
+        "hex": "#ececec",
+        "share": 0.0182,
+        "x": 99,
+        "y": 34
+      },
+      {
+        "hex": "#a6a6a6",
+        "share": 0.0076,
+        "x": 129,
+        "y": 32
+      },
+      {
+        "hex": "#2c2c2c",
+        "share": 0.0069,
+        "x": 93,
+        "y": 44
+      },
+      {
+        "hex": "#626262",
+        "share": 0.0064,
+        "x": 87,
+        "y": 140
+      }
+    ]
+  }
+]

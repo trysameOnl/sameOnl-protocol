@@ -1,0 +1,16 @@
+/* Palette provenance: k-means over real pixels of the brand logo (alpha 255 only) and the
+   first reference slide (k=6, deterministic seeding, 30 passes). Each centroid is snapped to the
+   nearest real pixel, so every literal below exists in the named file at the stated coordinate.
+   This is the only file in the project allowed to hold colour literals. */
+:root {
+  --bg: #030303; /* reference/SAME 1.jpg.jpeg @ (48,0) share 0.6262 */
+  --surface: #101318; /* reference/SAME 1.jpg.jpeg @ (1126,186) share 0.0941 */
+  --line: #2f3545; /* reference/SAME 1.jpg.jpeg @ (763,507) share 0.061 */
+  --dim: #5a657b; /* reference/SAME 1.jpg.jpeg @ (1464,300) share 0.0414 */
+  --muted: #a1a9bc; /* reference/SAME 1.jpg.jpeg @ (1344,594) share 0.0455 */
+  --bright: #e5e5ef; /* reference/SAME 1.jpg.jpeg @ (1102,200) share 0.1318 */
+  --sphere-hi: #f3f3f7; /* brand/LOGO SAME PNG...png @ (888,573) share 0.3855 */
+  --sphere-mid: #e3e3eb; /* brand/LOGO SAME PNG...png @ (983,509) share 0.2345 */
+  --sphere-lo: #d0d0dc; /* brand/LOGO SAME PNG...png @ (1132,527) share 0.1853 */
+  --sphere-edge: #b1b1c0; /* brand/LOGO SAME PNG...png @ (1362,673) share 0.1948 */
+}

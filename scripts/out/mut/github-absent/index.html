@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SAME</title>
+<meta name="description" content="SAME routes swap fees into purchases and permanent retirement of supply on Solana. Live market table plus plain confirmed-facts register.">
+<meta name="theme-color" content="#030303">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" sizes="32x32">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="canonical" href="https://same.onl/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SAME">
+<meta property="og:title" content="SAME">
+<meta property="og:description" content="Trading fees come back as purchases, and what they buy is retired for good.">
+<meta property="og:url" content="https://same.onl/">
+<meta property="og:image" content="https://same.onl/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="/assets/fonts/eb-garamond-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/jetbrains-mono-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/app.css">
+</head>
+<body>
+<div id="progress" class="progress" aria-hidden="true"></div>
+
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="/" aria-label="SAME home">SAME</a>
+    <nav class="social" aria-label="Social"><a class="icon" data-record="x" data-state="stated" href="https://x.com/same_Onl" target="_blank" rel="noopener noreferrer" aria-label="X @same_Onl" title="X @same_Onl"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><span class="icon is-inert" data-record="github" data-state="absent" role="img" aria-disabled="true" aria-label="GitHub, pending" title="GitHub, pending"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></span></nav>
+  </div>
+</header>
+
+<section class="ca" id="contract" data-ca data-state="absent" aria-label="Contract address">
+  <div class="ca-head"><span class="label">contract address</span></div>
+  <div class="ca-box is-inert" role="group" aria-label="Contract address, pending"><span class="ca-value">pending</span></div>
+  <p class="ca-note"></p>
+</section>
+
+<main id="main">
+  <section class="hero" data-parallax>
+    <div class="mesh" aria-hidden="true">
+      <i class="blob b1" data-depth="0.25"></i>
+      <i class="blob b2" data-depth="0.4"></i>
+      <i class="blob b3" data-depth="0.3"></i>
+    </div>
+    <div class="stage" aria-hidden="true">
+      <svg class="ring ring-back" data-depth="0.7" viewBox="0 0 600 300" focusable="false"><ellipse cx="300" cy="150" rx="290" ry="62" /></svg>
+      <img class="sphere" data-depth="1" src="/assets/sphere-1024.webp" srcset="/assets/sphere-512.webp 512w, /assets/sphere-1024.webp 1024w" sizes="(max-width: 640px) 220px, 280px" width="1024" height="1024" alt="" decoding="async" fetchpriority="high">
+      <svg class="ring ring-front" data-depth="1.25" viewBox="0 0 600 300" focusable="false"><path d="M10 150 A290 62 0 0 0 590 150" /></svg>
+      <i class="floor" data-depth="0.5"></i>
+    </div>
+    <div class="hero-copy">
+      <h1 class="wordmark">SAME</h1>
+      <p class="label">a flywheel built from fees</p>
+      <p class="lede">Swap fees fund fresh purchases. Purchased tokens vanish permanently. Remaining holders own bigger fractions afterward.</p>
+      <div class="pill-row">
+        <span class="pill" id="hero-pill" data-status="loading"><i class="dot" aria-hidden="true"></i><b>live market</b></span>
+      </div>
+    </div>
+    <div class="tiles" data-stagger>
+      <div class="tile" data-item data-record-state="absent"><div class="label">Cycles run</div><div class="v is-pending mono">pending</div></div>
+      <div class="tile" data-item data-record-state="absent"><div class="label">Supply retired</div><div class="v is-pending mono">pending</div></div>
+      <div class="tile" data-item data-record-state="absent"><div class="label">Fees recycled</div><div class="v is-pending mono">pending</div></div>
+    </div>
+  </section>
+
+  <section class="col block" data-reveal>
+    <div class="label mb-3">overview</div>
+    <div class="prose">
+      <p>SAME: Solana token, single habit. Swap fees return as demand; bought supply gets destroyed permanently. No staging, no promises. Below you will find confirmed facts alongside pending ones.</p>
+    </div>
+  </section>
+
+  <section class="wide block market" id="market" aria-labelledby="market-h">
+    <div class="sec-head" data-reveal>
+      <h2 id="market-h"><span class="num">&#9679;</span><span class="ttl">Solana right now</span></h2>
+      <span class="pill" id="market-pill" data-status="loading"><i class="dot" aria-hidden="true"></i><b>connecting</b></span>
+    </div>
+    <p class="note" data-reveal>Ten busiest boosted Solana tokens ranked by 24h volume, pulled directly from public feed. Market view only, never advice.</p>
+
+    <div class="ticker" aria-hidden="true" data-reveal>
+      <div class="ticker-track" id="ticker-track"><span class="tick skel-tick"></span><span class="tick skel-tick"></span><span class="tick skel-tick"></span><span class="tick skel-tick"></span></div>
+    </div>
+
+    <div class="mstats" data-reveal>
+      <div class="mstat"><span class="label">volume 24h</span><b class="mono" data-total="volume">&mdash;</b></div>
+      <div class="mstat"><span class="label">liquidity</span><b class="mono" data-total="liquidity">&mdash;</b></div>
+      <div class="mstat"><span class="label">tokens</span><b class="mono" data-total="count">&mdash;</b></div>
+    </div>
+
+    <div class="tabs" role="tablist" aria-label="Sort tokens" data-reveal>
+      <button class="tab" role="tab" type="button" data-sort="volume" aria-selected="true">volume</button>
+      <button class="tab" role="tab" type="button" data-sort="move" aria-selected="false" tabindex="-1">24h move</button>
+      <button class="tab" role="tab" type="button" data-sort="liquidity" aria-selected="false" tabindex="-1">liquidity</button>
+    </div>
+
+    <div class="table" data-reveal>
+      <div class="thead" aria-hidden="true"><span>token</span><span>price</span><span>24h</span><span>volume</span><span>liquidity</span><span></span></div>
+      <ol class="rows" id="market-rows" aria-label="Top ten Solana tokens by 24h volume"></ol>
+      <div class="err" id="market-error" role="alert" hidden></div>
+      <button class="retry" id="market-retry" type="button">Retry now</button>
+    </div>
+    <div class="sr" id="market-live" role="status" aria-live="polite"></div>
+  </section>
+
+  <section class="col block" data-reveal>
+    <h2><span class="num">1</span><span class="ttl">Fee cycle</span></h2>
+    <div class="prose">
+      <p>Swaps generate fees. SAME routes those fees into purchases, delivering each bought token to an unspendable address. Demand rises slightly, supply drops slightly, so newcomers meet leaner conditions.</p>
+      <p>Activity powers the engine; the engine rewards activity. Busy periods speed things up, calm periods slow them without waste.</p>
+    </div>
+  </section>
+
+  <section class="col block" data-reveal>
+    <h2><span class="num">2</span><span class="ttl">Why loops stall</span></h2>
+    <div class="prose">
+      <p>Many designs borrow this concept, then stumble. Four failure shapes recur.</p>
+      <dl class="defs" data-stagger>
+        <div data-item><dt>bursty</dt><dd>Proceeds idle for long periods, then arrive together and jolt charts.</dd></div>
+        <div data-item><dt>manual</dt><dd>Somebody must press a button. Eventually nobody does.</dd></div>
+        <div data-item><dt>mixed funds</dt><dd>Spending taps wallets holding unrelated money, muddying accounting.</dd></div>
+        <div data-item><dt>bad timing</dt><dd>Orders hit thin books, costing extra while lasting briefly.</dd></div>
+      </dl>
+      <p>All four reduce to timing or custody. SAME removes both variables.</p>
+    </div>
+  </section>
+
+  <section class="col block" data-reveal>
+    <h2><span class="num">3</span><span class="ttl">Pace follows participation</span></h2>
+    <div class="prose">
+      <p>Order size scales with market activity. Heavy trading brings larger purchases; light trading brings smaller ones while leftovers queue. Ceiling stays a fraction of recent turnover, keeping SAME smaller than its crowd.</p>
+      <div class="rule" data-spotlight>
+        <span class="expr">order = min(pool, share &times; recent turnover)</span>
+        <span class="tag">3.1</span>
+      </div>
+      <div class="params" data-stagger>
+        <div class="tile" data-item data-record-state="unconfirmed"><div class="label">Share of turnover</div><div class="v is-pending mono">pending</div></div>
+        <div class="tile" data-item data-record-state="unconfirmed"><div class="label">Order floor</div><div class="v is-pending mono">pending</div></div>
+      </div>
+      <p>Supply declines alongside usage. Busy tokens keep tightening; idle ones pause, losing nothing earned.</p>
+    </div>
+  </section>
+
+  <section class="col block" data-reveal>
+    <h2><span class="num">4</span><span class="ttl">Cycle anatomy</span></h2>
+    <div class="prose">
+      <p>Every pass performs five moves, fixed order, zero discretion.</p>
+      <table class="steps">
+        <thead><tr><th class="label" scope="col">move</th><th class="label" scope="col">effect</th></tr></thead>
+        <tbody data-stagger>
+          <tr data-item><th scope="row">gather</th><td>Collect fees produced by swaps; only newly arrived funds join pool.</td></tr>
+          <tr data-item><th scope="row">reserve</th><td>Hold back modest buffer for network costs.</td></tr>
+          <tr data-item><th scope="row">measure</th><td>Compute order size, bounded by recent turnover.</td></tr>
+          <tr data-item><th scope="row">purchase</th><td>Acquire token through public liquidity.</td></tr>
+          <tr data-item><th scope="row">retire</th><td>Forward precisely what was purchased toward a dead end; supply travels one direction.</td></tr>
+        </tbody>
+      </table>
+      <p>Books stay narrow deliberately: pool holds arrivals; retirement touches purchases only.</p>
+    </div>
+  </section>
+
+  <section class="col block" data-reveal>
+    <h2><span class="num">5</span><span class="ttl">Boundaries</span></h2>
+    <div class="prose">
+      <p>No selling path exists. Reserved purchase funds stay put, and orders never exceed absorption capacity. Every action leaves a Solana trace, so after the contract address appears anybody can compare this page against chain.</p>
+    </div>
+  </section>
+
+  <section class="wide block" data-reveal>
+    <div class="panel" data-spotlight>
+      <div class="label mb-3">single wheel rotation</div>
+      <ol class="segs" aria-hidden="true"><li></li><li></li><li></li><li></li></ol>
+      <ol class="beats" data-stagger>
+        <li data-item><span class="idx">01</span><span>A swap lands, paying its fee.</span></li>
+        <li data-item><span class="idx">02</span><span>Fee enters pool.</span></li>
+        <li data-item><span class="idx">03</span><span>Pool buys token at market-set pace.</span></li>
+        <li data-item><span class="idx">04</span><span>Bought supply gets retired; wheel turns again.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="wide block" aria-labelledby="records-h" data-reveal>
+    <h2 id="records-h"><span class="num">&#9679;</span><span class="ttl">Records</span></h2>
+    <p class="note">Each external fact below counts as one record, either stated, absent or unconfirmed. Anything unstated stays inert.</p>
+    <ul class="chips" data-stagger>
+      <li class="chip" data-item data-spotlight data-state="stated"><span class="l">Chain</span><span class="s">Solana</span></li>
+      <li class="chip" data-item data-spotlight data-state="absent"><span class="l">Contract</span><span class="s">pending</span></li>
+      <li class="chip" data-item data-spotlight data-state="stated"><span class="l">X</span><span class="s">@same_Onl</span></li>
+      <li class="chip" data-item data-spotlight data-state="absent"><span class="l">GitHub</span><span class="s">pending</span></li>
+      <li class="chip" data-item data-spotlight data-state="stated"><span class="l">Market feed</span><span class="s">live</span></li>
+    </ul>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="foot-in">
+    <span>Built on Solana</span>
+    <i class="bar" aria-hidden="true"></i>
+    <span class="dom">same.onl</span>
+  </div>
+</footer>
+
+<script type="application/json" id="register">{"chain":{"label":"Chain","state":"stated","value":"Solana","rpc":"https://solana-rpc.publicnode.com"},"contract":{"label":"Contract","state":"absent"},"x":{"label":"X","state":"stated","url":"https://x.com/same_Onl"},"github":{"label":"GitHub","state":"absent"},"market-source":{"label":"Market feed","state":"stated","url":"https://api.dexscreener.com/token-boosts/top/v1","pairs":"https://api.dexscreener.com/tokens/v1/solana/{addresses}"},"stat-cycles":{"label":"Cycles run","state":"absent"},"stat-retired":{"label":"Supply retired","state":"absent"},"stat-recycled":{"label":"Fees recycled","state":"absent"},"param-share":{"label":"Share of turnover","state":"unconfirmed"},"param-floor":{"label":"Order floor","state":"unconfirmed"}}</script>
+<script type="module" src="/assets/js/main.js"></script>
+</body>
+</html>

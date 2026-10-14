@@ -1,0 +1,21 @@
+import { startServer } from '../serve.mjs';
+import { launch } from '../lib/browser.mjs';
+const s = await startServer('dist');
+const b = await launch();
+const p = await b.newPage();
+const logs = [];
+p.on('console', (m) => logs.push(m.type() + ': ' + m.text()));
+p.on('pageerror', (e) => logs.push('pageerror: ' + e.message));
+await p.setViewport({ width: +process.argv[2] || 1440, height: +process.argv[3] || 900 });
+const out = process.argv[4] || 'scripts/out/top.png';
+await p.goto(`http://localhost:${s.port}/`, { waitUntil: 'networkidle2' });
+await new Promise((r) => setTimeout(r, 3000));
+await p.screenshot({ path: out });
+const H = await p.evaluate(() => document.documentElement.scrollHeight);
+for (let y = 0; y < H; y += 300) { await p.evaluate((y) => scrollTo(0, y), y); await new Promise((r) => setTimeout(r, 250)); }
+await new Promise((r) => setTimeout(r, 1500));
+await p.evaluate(() => scrollTo(0, 0));
+await new Promise((r) => setTimeout(r, 300));
+await p.screenshot({ path: out.replace('.png', '-full.png'), fullPage: true });
+console.log(logs.join('\n'));
+await b.close(); s.close(); process.exit(0);
